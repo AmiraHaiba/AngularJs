@@ -1,0 +1,22 @@
+<html>
+</!DOCTYPE html>
+<html ng-app="Food">
+<head>
+    <script src="angular.min.js"></script>
+    <script src="HowMuchDoIEat.js"></script>
+	<title>How Much Do You Eat</title>
+</head>
+<body>
+
+	<h1>Do I Eat Much?</h1>
+	<h4>Enter food separatd by commas</h4>
+	<div ng-controller = "DivController">
+	<input type="text" ng-model="food">
+	<div>{{msg}}</div>
+	<button ng-click="count()">See</button>
+
+
+
+	</div>
+</body>
+</html>
